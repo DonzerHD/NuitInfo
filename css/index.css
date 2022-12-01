@@ -1,0 +1,13 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#consignes{
+    background-color: rgba(158, 0, 119, 0.863);
+    margin-top: -5px;
+    text-align: center;
+    font-size: 82px;
+    color: aliceblue;
+
+
+}
