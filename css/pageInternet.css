@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#consignes{
+    background-color: rgba(158, 0, 119, 0.863);
+    margin-top: -5px;
+    text-align: center;
+    font-size: 56px;
+    color: aliceblue;
+    position: absolute;
+    margin-top: 45.51%;
+    width: 100%;
+}
+
+.fond{
+    width: 100%;
+    height: 880px;
+    position: absolute;
+    z-index: 1;
+}
+#image{
+    height: 100%;
+}
+
+.fleche{
+    position: absolute;
+    z-index: 3;
+    height: 50px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.fin{
+    position: absolute;
+    z-index: 3;
+    margin-top: 10%;
+    margin-left: 50%;
+}
+
