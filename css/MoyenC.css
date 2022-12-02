@@ -10,11 +10,10 @@ body{
     position: absolute;
     z-index: 1;
     width: 100%;
-    filter: blur(3.6px);
 }
 
 .imgFond{
-    width: 100%;
+    width: 60%;
     height: 780px;
 }
 
