@@ -35,7 +35,7 @@ virusSelect.addEventListener('click',()=>{
 	   afficheMessage("Trouve les " + i + " virus");
 	   }
 		else {
-		   afficheMessage("Pour plus d'infos sur le sida <a href=info/sida.html>cliquez ici</a> ou sinon cliquez sur la bibliothèque");
+		   afficheMessage("Pour plus d'infos sur le sida <a href=info/sida.html>cliquez ici</a> ou sinon cliquez sur un des éléments");
 	   }
 }
 )
@@ -51,7 +51,7 @@ virusSelectS.addEventListener('click',()=>{
 	   afficheMessage("Trouve les " + i + " virus");
 	   }
 		else {
-		   afficheMessage("Pour plus d'infos sur le sida <a href=info/sida.html>cliquez ici</a> ou sinon cliquez sur la bibliothèque");
+		   afficheMessage("Pour plus d'infos sur le sida <a href=info/sida.html>cliquez ici</a> ou sinon cliquez sur un des éléments");
 	   }
 }
 )
@@ -67,7 +67,7 @@ virusSelectT.addEventListener('click',()=>{
 	afficheMessage("Trouve les " + i + " virus");
 	}
 	 else {
-		afficheMessage("Pour plus d'infos sur le sida <a href=info/sida.html>cliquez ici</a> ou sinon cliquez sur la bibliothèque");
+		afficheMessage("Pour plus d'infos sur le sida <a href=info/sida.html>cliquez ici</a> ou sinon cliquez sur un des éléments");
 	}
 }
 )
