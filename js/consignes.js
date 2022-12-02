@@ -30,7 +30,7 @@ virusSelect.addEventListener('click',()=>{
 	 virusSelect.classList.add("virusD1");
 	 i++;
 	 if(i == 3){
-		afficheMessage("Cliquez sur la bibliothèque");
+		afficheMessage("Pour plus d'infos sur le sida <a href=info/sida.html>cliquez ici</a> ou sinon cliquez sur la bibliothèque");
 	}
 }
 )
