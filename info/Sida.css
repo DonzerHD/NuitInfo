@@ -1,0 +1,362 @@
+h2{
+    text-align: center;
+    font-size: 60px;
+	font-family: cursive;
+	font-weight: bolder;
+}
+
+img{
+    width: 800px;
+    margin: auto;
+    padding-left: 550px;
+   
+}
+
+h3{
+    font-size: 35px;
+    text-align: center;
+	font-family: cursive;
+	font-weight: bolder;
+}
+
+p{
+    font-size: 20px;
+    font-family: cursive;
+	font-weight: bolder;
+}
+
+li{
+   font-size: 20px;
+   font-family: cursive;
+	font-weight: bolder;
+}
+
+.block {
+	position: relative;
+	margin: 300px ;
+	width: 1150px;
+	height: 600px;
+	background-color: #fb0094;
+    left: 250px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #1bff17, #0000ff, #00ff00,#ff0000, #000000, #4415ff, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block:after {
+	filter: blur(50px);
+}
+
+.block2 {
+	position: relative;
+	margin: 300px ;
+	width: 1150px;
+	height: 600px;
+	background-color: #fb0094;
+    left: 250px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.block2:before, .block2:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #1bff17, #0000ff, #00ff00,#ff0000, #000000, #4415ff, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block2:after {
+	filter: blur(50px);
+}
+
+.block3 {
+	position: relative;
+	margin: 300px ;
+	width: 1150px;
+	height: 650px;
+	background-color: #fb0094;
+    left: 250px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.block3:before, .block3:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #1bff17, #0000ff, #00ff00,#ff0000, #000000, #4415ff, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block3:after {
+	filter: blur(50px);
+}
+
+.block4 {
+	position: relative;
+	margin: 300px ;
+	width: 1150px;
+	height: 550px;
+	background-color: #fb0094;
+    left: 250px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.block4:before, .block4:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #1bff17, #0000ff, #00ff00,#ff0000, #000000, #4415ff, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block4:after {
+	filter: blur(50px);
+}
+
+.block5 {
+	position: relative;
+	margin: 300px ;
+	width: 1150px;
+	height: 750px;
+	background-color: #fb0094;
+    left: 250px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.block5:before, .block5:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #1bff17, #0000ff, #00ff00,#ff0000, #000000, #4415ff, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block5:after {
+	filter: blur(50px);
+}
+
+.block6 {
+	position: relative;
+	margin: 300px ;
+	width: 1150px;
+	height: 650px;
+	background-color: #fb0094;
+    left: 250px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.block6:before, .block6:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #1bff17, #0000ff, #00ff00,#ff0000, #000000, #4415ff, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block6:after {
+	filter: blur(50px);
+}
+
+.block7 {
+	position: relative;
+	margin: 300px ;
+	width: 1150px;
+	height: 700px;
+	background-color: #fb0094;
+    left: 250px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.block7:before, .block7:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #1bff17, #0000ff, #00ff00,#ff0000, #000000, #4415ff, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block7:after {
+	filter: blur(50px);
+}
+
