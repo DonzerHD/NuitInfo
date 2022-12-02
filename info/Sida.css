@@ -9,8 +9,32 @@ img{
     width: 800px;
     margin: auto;
     padding-left: 550px;
-   
-}
+    animation-duration: 3s;
+    animation-name: glissement;
+    animation-iteration-count: initial;
+  }
+  
+  .arret {
+    animation-play-state: running;
+  }
+  
+  .encours {
+    animation-play-state: initial;
+  }
+  
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
 
 h3{
     font-size: 35px;
