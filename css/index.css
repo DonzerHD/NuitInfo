@@ -3,11 +3,46 @@ body{
     padding: 0%;
 }
 #consignes{
-    background-color: rgba(158, 0, 119, 0.863);
+    background-color: rgba(158, 0, 119);
     margin-top: -5px;
     text-align: center;
     font-size: 82px;
     color: aliceblue;
+    position: absolute;
+    margin-top: 45.51%;
+    width: 100%;
+}
 
+.fond{
+    position: absolute;
+    width: 100%;
+}
 
+.virus1{
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    margin-left: 70%;
+    margin-top: 11%;
+}
+.virus2{
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    margin-left: 46%;
+    margin-top: 19.55%;
+}
+.virus3{
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    margin-left: 10%;
+    margin-top: 31%;
+}
+
+.virusD1 , .virusD2 , .virusD3{
+    display: none;
 }
