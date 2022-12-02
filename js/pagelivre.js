@@ -62,13 +62,13 @@ virusSelectT.addEventListener('click',()=>{
 	 virusSelectT.classList.add("virusD3");
 	 i--;
 	 if( i == 1){
-	 afficheMessage("Trouve le dernier virus");
-	}else if (i > 1){
-	afficheMessage("Trouve les " + i + " virus");
-	}
-	 else {
-		afficheMessage("Pour plus d'infos sur le sida <a href=info/sida.html>cliquez ici</a> ou sinon cliquez sur la bibliothèque");
-	}
+		afficheMessage("Trouve le dernier virus");
+	   }else if (i > 1){
+	   afficheMessage("Trouve les " + i + " virus");
+	   }
+		else {
+		   afficheMessage("Pour plus d'infos sur le sida <a href=info/sida.html>cliquez ici</a> ou sinon cliquez sur la bibliothèque");
+	   }
 }
 )
 
